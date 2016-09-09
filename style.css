@@ -1,0 +1,30 @@
+body{
+    background: #FFDADF;
+}
+
+h1{
+    font-family: Helvetica;
+    font-weight: bold;
+    color: grey;
+    font-size: 10px;
+    padding-top: 40%;
+    padding-left: 40%;
+    
+}
+
+h2 {
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: grey;
+    font-size: 10px;
+    padding-left: 40%;
+
+}
+
+a {
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+}
