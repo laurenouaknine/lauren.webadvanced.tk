@@ -27,6 +27,161 @@ const commands = [
 }
 
 
+// var timer = 0;
+// var counter = 0;
+
+
+// for (var s = 0; s < 1500; s++) {
+//     setTimeout(function() {
+//         var snow = "";
+
+// 	for (var s=0; s < 1; s++) {
+// 	    console.pizza("");
+// 		}
+
+// 	for (var s=0; s < 1; s++) {
+// 	    console.beer("");
+// 		}
+
+// 	for (var s=0; s < 1; s++) {
+// 	    console.poo("");
+// 		}
+
+// 	for (var s=0; s < 1; s++) {
+// 	    console.octo("");
+// 		}
+
+// 	for (var s=0; s < 1; s++) {
+// 	    console.fish("");
+// 		}
+
+//     }, 5000);
+//     timer += 100;
+//     counter++;
+// }
+
+
+
+
+
+
+// var timer = 0;
+// var counter = 0;
+
+// for (var i = 0; i < 10; i++) {
+//     setTimeout(function() {
+//         var snow = "";
+//         for (var s = 0; s < 10; s++) {
+// 	        if (s = 1) {
+// 		    console.pizza("");
+// 				}
+
+// 			else if (s = 2) {
+// 			    console.beer("");
+// 				}
+
+// 			else if (s = 3) {
+// 			    console.poo("");
+// 				}
+
+// 			else if (s = 4) {
+// 			    console.octo("");
+// 				}
+
+// 			else if (s = 5) {
+// 			    console.fish("");
+// 				}
+//         }
+       
+//     }, 1000);
+//     timer += 1;
+//     counter++;
+// }
+
+var timer = 0;
+var counter = 0;
+
+for (var i = 0; i < 2000; i++) {
+    setTimeout(function() {
+
+        var snow = "";
+        for (var s = 0; s < 100; s++) {
+            if (Math.random()*100 < 20) {
+                snow += console.pizza("");
+            } 
+
+            else if (Math.random()*100 > 20 && Math.random()*100 < 40) {
+                snow += console.beer("");
+            }
+
+            else if (Math.random()*100 > 40 && Math.random()*100 < 60) {
+            	snow += console.poo("");
+            }
+
+            else if (Math.random()*100 > 60 && Math.random()*100 < 80) {
+            	snow += console.octo("");
+            }
+
+            else if (Math.random()*100 > 80 && Math.random()*100 < 100) {
+            	snow += console.fish("");
+            }
+    
+        }
+        console.pizza("");
+    }, 5000);
+    timer += 800;
+    counter++;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for (var i = 0; i < 1; i++) {
+//     setTimeout(function() {
+//         var snow = "";
+//         for (var s = 0; s < 1; s++) {
+//             if (s = 1) {
+//                 snow += console.pizza("");
+//             } 
+            
+//             else if (s = 2) {
+//                 snow += console.beer("");
+//             }
+
+//             else if (s = 3){
+//                 snow += console.poo("");
+//             }
+
+//             else if (s = 4){
+//                 snow += console.octo("");
+//             }
+            
+//             // else if (Math.floor()*100 > 150 && Math.floor()*100 < 250) {
+//             //     snow += console.poo("");
+//             // }
+            
+//         }
+//     }, timer);
+//     timer += 1;
+//     counter++;
+// }
+
+
+
+
+
+
+
+
 // for (var i=0; i < 1; i++) {
 //     console.pizza("");
 // }
@@ -53,49 +208,6 @@ const commands = [
 //         console.log(console.beer(""));
 //     }
 // }
-
-
-var timer = 0;
-var counter = 0;
-
-for (var i = 0; i < 1; i++) {
-    setTimeout(function() {
-        var snow = "";
-        for (var s = 0; s < 760; s++) {
-            if (s = 1) {
-                snow += console.pizza("");
-            } 
-            
-            else if (s = 2) {
-                snow += console.beer("");
-            }
-
-            else if (s = 3){
-                snow += console.poo("");
-            }
-
-            else if (s = 4){
-                snow += console.octo("");
-            }
-            
-            // else if (Math.floor()*100 > 150 && Math.floor()*100 < 250) {
-            //     snow += console.poo("");
-            // }
-            
-        }
-    }, timer);
-    timer += 300;
-    counter++;
-}
-
-
-
-
-
-
-
-
-
 
 
 // for (var i=0; i<100; i++) {
