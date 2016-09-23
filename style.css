@@ -5,7 +5,7 @@ body{
 h1{
     font-family: Helvetica;
     font-weight: bold;
-    color: grey;
+    color: #7f6d6f;
     font-size: 10px;
     padding-top: 20%;
     padding-left: 43%;
@@ -15,7 +15,7 @@ h1{
 h2 {
     font-family: Helvetica;
     font-weight: lighter;
-    color: grey;
+    color: #7f6d6f;
     font-size: 10px;
     padding-left: 43%;
 
@@ -24,7 +24,15 @@ h2 {
 a {
     font-family: Helvetica;
     font-weight: lighter;
-    color: grey;
+    color: #7f6d6f;
     font-size: 10px;
     text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.nope{
+    color: #e5c4c8;
 }
