@@ -7,14 +7,19 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="icon" href="http://www.foodservicedirect.com/productimages/OT453640S.jpg">
+
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body onload="">
+
+
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -22,19 +27,60 @@
         <!-- Add your site or application content here -->
 
         
-    <div class="input" id="input">
-        <input type="text" name="item" id="food" placeholder="food item" class="food-input">
-        <br>
-        <br>
-        <input type="date" name="date" id="day" placeholder="Sell By Date" class="day-input"> <br>
+    <div id="fridge"> </div>
 
-        <br>
+    	
 
-        <input type="button" value="enter" class="go"> 
-        <br>
-        <br>
-        <input type="button" value="clear fridge" class="reset">
-    </div>
+    	<p class="words">
+	    	<div class="dots hidden" id="one"> Milk </div>
+			<div class="dots hidden" id="two"> Bread </div>
+			<div class="dots hidden" id="three"> Eggs </div>
+			<div class="dots hidden" id="four"> Fruit </div>
+			<div class="dots hidden" id="five"> Veggies </div>
+		</p>
+
+    	<p class="buttongroup">
+
+	    	<button type="button" class="hidden" id="milk">Milk</button>
+	    		<br>
+	    		<br>
+	    	<button type="button" class="hidden" id="bread">Bread</button>
+	    		<br>
+	    		<br>
+	    	<button type="button" class="hidden" id="eggs">Eggs</button>
+	    		<br>
+	    		<br>
+	    	<button type="button" class="hidden" id="fruit">Fruit</button>
+	    		<br>
+	    		<br>
+	    	<button type="button" class="hidden" id="veggies">Veggies</button>
+
+    	</p>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

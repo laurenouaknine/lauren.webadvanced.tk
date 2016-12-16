@@ -52,20 +52,23 @@ var food = [];
 var dayArr = [];
 
 
-		if (Cookies.get('food')) {
-		    foodjson = JSON.parse(Cookies.get('food'));
+if (Cookies.get('food')) {
+	foodjson = JSON.parse(Cookies.get('food'));
 		    dayjson = JSON.parse(Cookies.get('day'));
 		    for (var i=0; i < foodjson.length; i++) {
-				
+		    	food.push(foodjson[i]);
+				dayArr.push(dayjson[i]);
 			   $("body").append("<div class='food" + counter + "'>" + foodjson[i] + "</div>");
 			   $(".food" + counter).css({"font-family": "Arial Black","font-size": "34pt", "position-top": y, "position-left": x});
 
 		    };
 		    
-		    for ( now == dayjson ){
-		    		Cookies.remove('food');
-		    }
-		};
+		//     for ( now == dayjson ){
+		//     		Cookies.remove('food');
+		//     }
+		// };
+		
+}
 		
 
 

@@ -43,7 +43,7 @@ function Fridge(){
  			// alert( "Handler for .click() called." );
  			$("#one").removeClass("hidden").animate({
 			    // width: "300%",
-			    color: "##004c00",
+			    color: "black",
 			    fontSize: "10em",
 			    borderWidth: "10px",
 			    filter: "blur(20px)"
